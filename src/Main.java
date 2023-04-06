@@ -1,18 +1,18 @@
 public class Main {
     public static void main(String[] args) {
 
-        int accl = 200;
-        int addam = 2290;
-        int limbon = 1000;
+        int accAmount = 200;
+        int addAmount = 2290;
+        int limitBonus = 1000;
         int bonus = 0;
 
-        if (addam >= limbon) {
-            bonus = addam / 100;
+        if (addAmount >= limitBonus) {
+            bonus = addAmount / 100;
         }
 
         System.out.println("Бонусные рубли " + bonus);
 
-        System.out.println("Итоговый счет " + (accl = accl + addam + bonus));
+        System.out.println("Итоговый счет " + (accAmount = accAmount + addAmount + bonus));
 
 
     }
